@@ -196,7 +196,9 @@ module.exports = {
     "no-invalid-double-slash-comments": true,
     "no-unknown-animations": true,
     "length-zero-no-unit": true,
-    "rule-empty-line-before": "always",
+    "rule-empty-line-before": ["always", {
+      "except": "after-single-line-comment",
+    }],
     "keyframe-declaration-no-important": true,
 
     /* Use Variables for */
