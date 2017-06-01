@@ -6,7 +6,6 @@ module.exports = {
 
 		/* Declaration Block */
     "declaration-block-no-duplicate-properties": true,
-    "declaration-block-no-redundant-longhand-properties": true,
     "declaration-block-no-shorthand-property-overrides": true,
     "declaration-block-semicolon-newline-after": "always",
     "declaration-block-semicolon-space-after": "always-single-line",
@@ -129,9 +128,9 @@ module.exports = {
     "selector-combinator-space-after": "always",
     "selector-combinator-space-before": "always",
     "selector-descendant-combinator-no-non-space": true,
-    "selector-max-compound-selectors": 3,
+    "selector-max-compound-selectors": 5,
     "selector-max-specificity": "0,2,0",
-    "selector-nested-pattern": "^&:(?:hover|focus|not)$",
+    "selector-nested-pattern": "^&:(?(:hover|:focus|:not|svg))$",
     "selector-no-attribute": true,
     "selector-no-id": true,
     "selector-no-qualifying-type": true,
@@ -174,7 +173,7 @@ module.exports = {
     "at-rule-name-case": "lower",
     "at-rule-name-space-after": "always",
     "at-rule-no-unknown": [true, {
-      "ignoreAtRules": ["responsive"],
+      "ignoreAtRules": ["for", "each"],
     }],
     "at-rule-no-vendor-prefix": true,
     "at-rule-semicolon-newline-after": "always",
