@@ -49,7 +49,6 @@ module.exports = {
       "data"
     ],
     "function-blacklist": [
-      "blur",
       "brightness",
       "circle",
       "contrast",
@@ -61,9 +60,7 @@ module.exports = {
       "hwb",
       "inset",
       "invert",
-      "opacity",
       "rgb",
-      "rgba",
       "perspective",
       "polygon",
       "saturate",
@@ -130,7 +127,7 @@ module.exports = {
     "selector-descendant-combinator-no-non-space": true,
     "selector-max-compound-selectors": 5,
     "selector-max-specificity": "1,2,1",
-    "selector-nested-pattern": "(&:(?:hover|focus|not\((.|\#|\:)*\))|svg|div|span)",
+    "selector-nested-pattern": "(&:(?:hover|focus|before|after|not\((.|\#|\:)*\))|svg|div|span)",
     "selector-no-attribute": true,
     "selector-no-id": true,
     "selector-no-qualifying-type": true,
@@ -193,7 +190,6 @@ module.exports = {
     "no-eol-whitespace": true,
     "no-extra-semicolons": true,
     "no-invalid-double-slash-comments": true,
-    "no-unknown-animations": true,
     "length-zero-no-unit": true,
     "rule-empty-line-before": ["always", {
       "except": "after-single-line-comment",
