@@ -128,7 +128,6 @@ module.exports = {
     "selector-max-compound-selectors": 5,
     "selector-max-specificity": "1,2,1",
     "selector-nested-pattern": "(&:(?:hover|focus|before|after|not\((.|\#|\:)*\))|svg|div|span)",
-    "selector-no-attribute": true,
     "selector-no-id": true,
     "selector-no-qualifying-type": true,
     "selector-no-universal": true,
