@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-pgb",
-  "version": "0.3.1",
+  "version": "0.4.1",
   "description": "Opinions on how to write CSS",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Jumballaya/stylelint-config-pgb/issues"
   },
-  "homepage": "https://github.com/Jumballaya/stylelint-config-pgb#readme"
+  "homepage": "https://github.com/Jumballaya/stylelint-config-pgb#readme",
+  "dependencies": {
+    "stylelint-declaration-use-variable": "^1.6.0"
+  }
 }
